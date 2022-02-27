@@ -1,14 +1,10 @@
-.p2 {
-  width: 80%;
-}
-
-}
 
 .column-left{
   float: left;
   width: 20%;
   text-align: left;
 }
+
 .column-right{
   float: right;
   width: 80%;
