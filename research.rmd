@@ -41,8 +41,6 @@ function readMore(paper) {
 </p2>
 </span>
 </div>
-
-
 <div class="card" data-paper="2">
 
 # **Souto-Maior**, J. & Shroff, R. Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools (expected submission: Mar., 2022). <button onclick="readMore('2')" class="myBtn">Read more</button>
@@ -56,7 +54,7 @@ function readMore(paper) {
 
 <div class="card" data-paper="3">
 
-# **Souto-Maior, J.** Determinants of race- and class-based educational inequality within Brazilian high schools (expected submission: Apr., 2022). <button onclick="readMore('3')" class="myBtn">Read more</button> [[working dashboard to communicate research results]](https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/)
+# **Souto-Maior, J.** Determinants of race- and class-based educational inequality within Brazilian high schools (expected submission: Apr., 2022). <button onclick="readMore('3')" class="myBtn">Read more</button> [Working dashboard](https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/)
 
 <span class="dots"></span><span class="more" style="display: none;">
 <p2>
@@ -68,7 +66,7 @@ function readMore(paper) {
 
 <div class="card" data-paper="4">
 
-# Sherwood, H., **Souto-Maior, J.**, Poteat, P., Yoshikawa, H., Calzo, J. Stepping Out of the Closet and into Engagement: A Quantitative Analysis of Outness, GSA Engagement, and Classroom Engagement (expected submission: Sep., 2022). <button onclick="readMore('4')" class="myBtn">Read more</button> [[code]](https://github.com/joaosoutomaior/outness-engagement-GSAs-code)
+# Sherwood, H., **Souto-Maior, J.**, Poteat, P., Yoshikawa, H., Calzo, J. Stepping Out of the Closet and into Engagement: A Quantitative Analysis of Outness, GSA Engagement, and Classroom Engagement (expected submission: Sep., 2022). <button onclick="readMore('4')" class="myBtn">Read more</button> [Code](https://github.com/joaosoutomaior/outness-engagement-GSAs-code)
 
 <span class="dots"></span><span class="more" style="display: none;">
 <p2>
@@ -76,6 +74,8 @@ function readMore(paper) {
 </p2>
 </span>
 </div>
+
+<br>
 
 ## Research presentations {-}
 
