@@ -114,7 +114,16 @@ hr {
   opacity: .5
 }
 
-.navbar-brand{
+
+.navbar-default {
+  font-size: 14px !important;
+  font-weight: bold;
+  color: #3E3E3E;
+  border: 0px; 
+  background-color: white
+}
+
+.navbar-brand,.navbar-brand:hover,.navbar-brand:focus{
   font-size: 14px;
   font-weight: bold;
   color: #3E3E3E;
@@ -133,7 +142,7 @@ hr {
   text-decoration:none
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
   background-color: #FAFAFA !important;
   color: #3E3E3E !important;
   font-weight: bold;

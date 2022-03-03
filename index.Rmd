@@ -2,7 +2,7 @@
 
 <div class="column-left">
 <center>
-<img src="files/profile-pic.jpg" style="width:85%">
+<img src="files/profile-pic.jpg" style="width:87%">
 </center>
 </div>
 
