@@ -1,5 +1,3 @@
-#more {display: none;}
-
 body{ 
   background-color: white /*#FCFCFC*/
 }
@@ -142,3 +140,6 @@ hr {
   font-size: 14px;
   opacity: .8
 }
+
+#more {display: none;}
+
