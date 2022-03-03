@@ -120,7 +120,7 @@ hr {
   font-weight: bold;
   color: #3E3E3E;
   border: 0px; 
-  background-color: white
+  background-color: white !important
 }
 
 .navbar-brand,.navbar-brand:hover,.navbar-brand:focus{
@@ -128,7 +128,7 @@ hr {
   font-weight: bold;
   color: #3E3E3E;
   border: 0px; 
-  background-color: white
+  background-color: white !important
 }
 
 .navbar-nav li a{
