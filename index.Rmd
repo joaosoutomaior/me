@@ -10,7 +10,7 @@
 
 I am a fourth-year PhD student ---at the candidacy level--- in the [Sociology of Education program](https://steinhardt.nyu.edu/programs/sociology-education) in the [Department of Applied Statistics, Social Science and Humanities](https://steinhardt.nyu.edu/departments/applied-statistics-social-science-and-humanities) at New York University's Steinhardt School of Culture, Education and Human Development. My research investigates the formation of educational inequalities within educational institutions, particularly along dimensions of race and class. Two primary goals inform such investigations. First, to rigorously quantify the extent to which organizational practices produce race- and class-based educational inequalities. Second, to understand the underlying mechanisms through which educational practices produce these inequalities. To address these goals, I rely on a variety of quantitative methods, with a primary focus on agent-based simulation approaches, hoping to advance the use of computational methods within the sociology of education. 
 
-I am originally from São Paulo, Brazil. I received my BA in economics and from the University of Wisconsin-Madison in 2017. After my undergraduate studies, I started as an economics doctoral student at the CUNY Graduate Center, where I studied for a year before transferring to NYU.
+I am originally from São Paulo, Brazil. I received my BA in economics from the University of Wisconsin-Madison in 2017. After my undergraduate studies, I started as an economics doctoral student at the CUNY Graduate Center, where I studied for a year before transferring to NYU.
 
 *A note on names:* for publication purposes, I use a hyphenated version of my last name: João M. Souto-Maior
 
