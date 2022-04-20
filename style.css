@@ -48,7 +48,27 @@ a:focus, a:hover{
  text-decoration:none
 }
 
-a2, a2:active, a2:visited {
+
+button, button:active, button:visited {
+  padding: 0.5px 3px !important;
+  border: 0px;
+  background-color: #F0B27A;
+  color: #A04000;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+button:focus, button:hover{
+  padding: 0.5px 3px !important;
+  border: 0px;
+  background-color: #F0B27A;
+  color: #A04000;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: .8;
+}
+
+.a2, .a2:active, .a2:visited {
   padding: 3px 4px !important;
   border: 0px;
   background-color: #F0B27A;
@@ -57,7 +77,7 @@ a2, a2:active, a2:visited {
   font-size: 10px;
 }
 
-a2:focus, a2:hover{
+.a2:focus, .a2:hover{
   padding: 3px 4px !important;
   border: 0px;
   background-color: #F0B27A;
@@ -67,7 +87,7 @@ a2:focus, a2:hover{
   opacity: .8;
 }
 
-a3, a3:active, a3:visited {
+.a3, .a3:active, .a3:visited {
   padding: 3px 4px !important;
   border: 0px;
   background-color: #F0E2A4;
@@ -76,7 +96,7 @@ a3, a3:active, a3:visited {
   font-size: 10px;
 }
 
-a3:focus, a3:hover{
+.a3:focus, .a3:hover{
   padding: 3px 4px !important;
   border: 0px;
   background-color: #F0E2A4;
@@ -86,7 +106,7 @@ a3:focus, a3:hover{
   opacity: .8;
 }
 
-a4, a4:active, a4:visited {
+.a4, .a4:active, .a4:visited {
   padding: 3px 4px !important;
   border: 0px;
   background-color: #F1948A;
@@ -95,7 +115,7 @@ a4, a4:active, a4:visited {
   font-size: 10px;
 }
 
-a4:focus, a4:hover{
+.a4:focus, .a4:hover{
   padding: 3px 4px !important;
   border: 0px;
   background-color: #F1948A;

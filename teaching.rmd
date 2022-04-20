@@ -17,11 +17,11 @@ be used for data analysis.
 <br>
 **Syllabus (taught from Spring 19 - Spring 21)**
 <br>
-<a2 href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Spring 21</a2> 
+<a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank" class="a2">Spring 21</a> 
 <br>
 **Course materials**
 <br>
-<a3 href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank">My course notes</a3> 
+<a href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank" class="a3">My course notes</a> 
 </p4>
 
 <p4>
@@ -34,7 +34,7 @@ commonly associated with qualitative research.
 <br>
 **Syllabus**
 <br>
-<a2 href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank">Spring 22</a2>
+<a href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank" class="a2">Spring 22</a>
 </p4>
 
 ## Undergraduate seminars
@@ -54,8 +54,8 @@ another as you learn through your research project.
 <br>
 **Syllabus**
 <br>
-<a2 href="files/syllabus_URS_Fall2016.pdf" target="_blank">Fall 2016</a2> 
-<a2 href="files/syllabus_URS_Spring2017.pdf" target="_blank">Spring 17</a2>
+<a href="files/syllabus_URS_Fall2016.pdf" target="_blank" class="a2">Fall 2016</a> 
+<a href="files/syllabus_URS_Spring2017.pdf" target="_blank" class="a2">Spring 17</a>
 </p4>
 
 <p4>
@@ -72,6 +72,6 @@ another as you learn through your research project.
 <br>
 **Syllabus**
 <br>
-<a2 href="files/syllabus_URS_Fall2015.pdf" target="_blank">Fall 15</a2> 
-<a2 href="files/syllabus_URS_Spring2016.pdf" target="_blank">Spring 16</a2>
+<a href="files/syllabus_URS_Fall2015.pdf" target="_blank" class="a2">Fall 15</a> 
+<a href="files/syllabus_URS_Spring2016.pdf" target="_blank" class="a2">Spring 16</a>
 </p4>

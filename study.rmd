@@ -6,14 +6,15 @@
 <p4>
 <p1>PhD coursework</p1>
 <br>
-<a2 href="files/JSM_PhD-coursework.pdf" target="_blank">Course list</a2> 
+<a href="files/JSM_PhD-coursework.pdf" target="_blank" class="a2">Course list</a> 
 <br>
 </p4>
 
 <p4>
 <p1>Comprehensive oral exam</p1>
 <br>
-<a2 href="files/JSM_comps-list.pdf" target="_blank">Reading list</a2> <br>
+<a href="files/JSM_comps-list.pdf" target="_blank" class="a2">Reading list</a> 
+<br>
 </p4>
 
 <p4>
@@ -23,5 +24,5 @@ In this independent study, my goal was to review some of the key explanations fo
 <br>
 **Reading list**
 <br>
-<a2 href="files/JSM_within-school-gaps-course.pdf" target="_blank">Spring 2020</a2>
+<a href="files/JSM_within-school-gaps-course.pdf" target="_blank" class="a2">Spring 2020</a>
 </p4>

@@ -34,7 +34,7 @@ function readMore(paper) {
 <div class="card" data-paper="1">
 **Souto-Maior, J.** Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation (expected submission: Apr., 2022). 
 <br>
-<a2 onclick="readMore('1')" class="button">Info</a2>
+<button onclick="readMore('1')" class="button">Info</button>
 
 <span class="dots"></span><span class="more" style="display: none;">
 <p2>
@@ -46,7 +46,7 @@ This is one of the papers which constitute my doctoral dissertation. The purpose
 <div class="card" data-paper="2">
 **Souto-Maior**, J. & Shroff, R. Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools (expected submission: Mar., 2022). 
 <br>
-<a2 onclick="readMore('2')" class="button">Info</a2> 
+<button onclick="readMore('2')" class="button">Info</button> 
 <span class="dots"></span><span class="more" style="display: none;">
 <p2>
 We investigate and quantify the extent to which observed Black-White enrollment disparities in Advanced Placement mathematics courses are "unjustified" by the main principle governing student placement decisions---i.e., students' academic preparedness. Using detailed administrative data from New York paper high schools, we use a machine-learning-based approach to construct our own measure of academic preparedness and find that the under-representation of Black students relative to White students in AP mathematics is not fully explained by students' differences in academic preparedness
@@ -57,8 +57,8 @@ We investigate and quantify the extent to which observed Black-White enrollment 
 <div class="card" data-paper="3">
 **Souto-Maior, J.** Determinants of race- and class-based educational inequality within Brazilian high schools (expected submission: Apr., 2022). 
 <br> 
-<a2 onclick="readMore('3')" class="button">Info</a2> 
-<a3 href="https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/" target="_blank">Working dashboard</a3>
+<button onclick="readMore('3')" class="button">Info</button> 
+<a href="https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/" target="_blank" class = "a3" >Working dashboard</a>
 
 <span class="dots"></span><span class="more" style="display: none;">
 <p2>
@@ -70,8 +70,8 @@ This paper aims at filling the gap of descriptive investigations of within-schoo
 <div class="card" data-paper="4">
 Sherwood, H., **Souto-Maior, J.**, Poteat, P., Yoshikawa, H., Calzo, J. Stepping Out of the Closet and into Engagement: A Quantitative Analysis of Outness, GSA Engagement, and Classroom Engagement (expected submission: Sep., 2022). 
 <br>
-<a2 onclick="readMore('4')" class="button">Info</a2> 
-<a3 href="https://github.com/joaosoutomaior/outness-engagement-GSAs-code" class="button">Code</a3>
+<button onclick="readMore('4')" class="button">Info</button> 
+<a href="https://github.com/joaosoutomaior/outness-engagement-GSAs-code" class = "a3" >Code</a>
 
 <span class="dots"></span><span class="more" style="display: none;">
 <p2>
