@@ -3,12 +3,75 @@
 
 ## Discussion sections
 
-Undergraduate Basic Statistics, New York University <a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Spring 19</a> <a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Fall 19</a> <a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Spring 20</a> <a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Fall 20</a> <a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Spring 21</a> [My course notes](https://bookdown.org/joao_msoutomaior/intro-stats-notes)
-
-Qualitative Methods in International Education, New York University <a href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank">Spring 22</a>
-
+<p4>
+<p1>Undergraduate Basic Statistics --- New York University</p1>
 <br>
+This introductory course is designed to prepare undergraduate &
+master’s level students to use statistics for data analysis. This course covers descriptive and
+inferential statistics; including frequency distributions, graphs, measures of central tendency,
+measures of variability, sampling, probability, z-score, the normal distribution, and tests of
+hypothesis such as t-tests, ANOVA, linear correlation and regression, and chi-squared analysis.
+Effect size, study designs (observational and experimental) and research concepts (association
+and causation; confounding and interaction) will also be addressed. The IBM-SPSS software will
+be used for data analysis.
+<br>
+**Syllabus (taught from Spring 19 - Spring 21)**
+<br>
+<a2 href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank">Spring 21</a2> 
+<br>
+**Course materials**
+<br>
+<a3 href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank">My course notes</a3> 
+</p4>
+
+<p4>
+<p1>Qualitative Methods in International Education --- New York University</p1>
+<br>
+This course provides an introduction to qualitative methods that scholars and practitioners use in
+international and comparative education and the social sciences more broadly. It is intended to
+provide an overview of research design, data collection, and data analysis and presentation most
+commonly associated with qualitative research. 
+<br>
+**Syllabus**
+<br>
+<a2 href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank">Spring 22</a2>
+</p4>
 
 ## Undergraduate seminars
 
-Research, Creative Work and Society, University of Wisconsin-Madison <a href="files/syllabus_URS_Fall2015.pdf" target="_blank">Fall 15</a> <a href="files/syllabus_URS_Spring2016.pdf" target="_blank">Spring 16</a> <a href="files/syllabus_URS_Fall2016.pdf" target="_blank">Fall 2016</a> <a href="files/syllabus_URS_Spring2017.pdf" target="_blank">Spring 17</a>
+<p4>
+<p1>URS Seminar: Research, Creative Work and the Public Good --- University of Wisconsin-Madison</p1>
+<br>
+The course is designed to introduce students to the practice of research and creative work, and
+its implications for society. The course has two components: the work you do as an assistant on
+faculty projects, and your participation in the small group seminar. In the school year 2016-17, the
+seminar is dedicated to the theme: research, creative work and the public good. We will spend
+the year critically exploring this theme across different disciplines, and touching on a range of
+societal problems. The theme is to provoke reflection in our research or creative work experiences, and in the
+different parts of the world we inhabit. Come prepared to share your thinking on the topics
+introduced. Through discussions, activities and assignments you may learn as much from one
+another as you learn through your research project.
+<br>
+**Syllabus**
+<br>
+<a2 href="files/syllabus_URS_Fall2016.pdf" target="_blank">Fall 2016</a2> 
+<a2 href="files/syllabus_URS_Spring2017.pdf" target="_blank">Spring 17</a2>
+</p4>
+
+<p4>
+<p1>URS Seminar: Research and Creative Work at the Boundaries --- University of Wisconsin-Madison</p1>
+<br>
+The course is designed to introduce students to the practice of research and creative work,
+and its implications for society. The course has two components: the work you do as an
+assistant on faculty projects, and your participation in the small group seminar. In the school
+year 2015-16, the seminar is dedicated to the theme: research and creative work at the
+ boundaries. We will spend the year critically exploring this theme across different disciplines,
+and touching on a range of societal problems. The theme is to provoke reflection in our research or creative work experiences, and in the different parts of the world we inhabit. Come prepared to share your thinking on the topics
+introduced. Through discussions, activities and assignments you may learn as much from one
+another as you learn through your research project.
+<br>
+**Syllabus**
+<br>
+<a2 href="files/syllabus_URS_Fall2015.pdf" target="_blank">Fall 15</a2> 
+<a2 href="files/syllabus_URS_Spring2016.pdf" target="_blank">Spring 16</a2>
+</p4>

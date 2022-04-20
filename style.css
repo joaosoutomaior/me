@@ -2,50 +2,110 @@ body{
   background-color: white /*#FCFCFC*/
 }
 
-button {
-  border: 1px solid #3E3E3E; 
-  background-color: #FCFCFC;
-  color: #3E3E3E;
-  font-weight: bold;
-  font-size: 11px;
-  padding: 3px 4px; 
+/*Navigation bar --------------------------------------------- */
+
+.navbar-default,.navbar-brand,.navbar-brand:hover,.navbar-brand:focus, .navbar-default .navbar-nav>li>a {
+  font-size: 14px !important; 
+  font-weight: bold !important;
+  color: #D5DBDB  !important;
+  border: 0px !important; 
+  background-color: #17202A !important;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none
 }
 
-button:hover {
-  background-color: #FAFAFA;
-  color: #3E3E3E;
-  font-weight: bold;
-  font-size: 11px;
-  opacity: .8;
-  text-decoration:none
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
+  font-size: 14px !important; 
+  font-weight: bold !important;
+  color: #D5DBDB  !important;
+  border: 0px !important; 
+  background-color: #17202A !important;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.5;
 }
 
-a{
- border: 1px solid #3E3E3E; 
- background-color: #FCFCFC;
- color: #3E3E3E;
+/*Hypelinks --------------------------------------------- */
+
+a, a:visited{
+ border: 1px solid #17202A; 
+ background-color: #17202A;
+ color: #D5DBDB;
  font-weight: bold;
- font-size: 11px;
+ font-size: 10px;
  padding: 3px 4px; 
 }
 
-a:visited{
- border: 1px solid #3E3E3E; 
- background-color: #FCFCFC;
- color: #3E3E3E;
+a:focus, a:hover{
+ border: 1px solid #17202A;
+ background-color: #17202A;
+ color: #D5DBDB;
  font-weight: bold;
- font-size: 11px
-}
-
-
-a:hover{
- background-color: #FAFAFA;
- color: #3E3E3E;
- font-weight: bold;
- font-size: 11px;
+ font-size: 10px;
  opacity: .8;
  text-decoration:none
 }
+
+a2, a2:active, a2:visited {
+  padding: 3px 4px !important;
+  border: 0px;
+  background-color: #F0B27A;
+  color: #A04000;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+a2:focus, a2:hover{
+  padding: 3px 4px !important;
+  border: 0px;
+  background-color: #F0B27A;
+  color: #A04000;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: .8;
+}
+
+a3, a3:active, a3:visited {
+  padding: 3px 4px !important;
+  border: 0px;
+  background-color: #F0E2A4;
+  color: #2A2C31;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+a3:focus, a3:hover{
+  padding: 3px 4px !important;
+  border: 0px;
+  background-color: #F0E2A4;
+  color: #2A2C31;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: .8;
+}
+
+a4, a4:active, a4:visited {
+  padding: 3px 4px !important;
+  border: 0px;
+  background-color: #F1948A;
+  color: #7B241C;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+a4:focus, a4:hover{
+  padding: 3px 4px !important;
+  border: 0px;
+  background-color: #F1948A;
+  color: #7B241C;
+  font-weight: bold;
+  font-size: 10px;
+  opacity: .8;
+}
+
+/*Columns --------------------------------------------- */
 
 .column-left{
   float: left;
@@ -58,6 +118,8 @@ a:hover{
   width: 75%;
   text-align: left;
 }
+
+/*Headers and paragraphs --------------------------------------------- */
 
 h2{
   font-size: 16px;
@@ -78,6 +140,11 @@ p{
   font-size: 12px;
 }
 
+p1{
+  font-size: 14px;
+  font-weight: bold
+}
+
 p2{
   font-size: 10px;
   padding: 10px;
@@ -88,15 +155,17 @@ p2{
   text-align: left;
 }
 
-p3{
-  font-size: 12px;
+p4{
   padding: 10px;
+  width: 75%;
   border: 1px solid #3E3E3E;
   margin: 2px;
   background-color: white;
   display: inline-block;
   text-align: left;
 }
+
+/*Lists --------------------------------------------- */
 
 ul{
   font-size: 12px;
@@ -114,41 +183,7 @@ hr {
   opacity: .5
 }
 
-
-.navbar-default {
-  font-size: 14px !important;
-  font-weight: bold;
-  color: #3E3E3E;
-  border: 0px; 
-  background-color: white !important
-}
-
-.navbar-brand,.navbar-brand:hover,.navbar-brand:focus{
-  font-size: 14px;
-  font-weight: bold;
-  color: #3E3E3E;
-  border: 0px; 
-  background-color: white !important
-}
-
-.navbar-nav li a{
-  border: 0px; 
-  background-color: white;
-  font-weight: bold;
-  color: #3E3E3E;
-  font-size: 14px;
-  opacity: 1;
-  text-align:center;
-  text-decoration:none
-}
-
-.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus {
-  background-color: #FAFAFA !important;
-  color: #3E3E3E !important;
-  font-weight: bold;
-  font-size: 14px;
-  opacity: .8
-}
+/*Variables --------------------------------------------- */
 
 #more {display: none;}
 
