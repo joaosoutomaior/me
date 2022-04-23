@@ -1,28 +1,62 @@
 
 <br>
 
-## Relevant documents
+## Revelevant materials in my PhD study
 
 <p4>
-<p1>PhD coursework</p1>
+<p0>PhD dissertation: School racial integration and students’ academic experiences: a simulation-based study of Black-White course-taking inequalities</p0>
 <br>
-<a href="files/JSM_PhD-coursework.pdf" target="_blank" class="a2">Course list</a> 
+The purpose of the project is to identify the mechanisms generating Black-White academic disparities in integrated school settings. The project constructs a series of qualitatively-informed agent-based models that highlight the mechanisms generating black-white advanced course-taking inequalities within schools. Models show how the racial composition of schools and different tracking systems influence the salience of the generative mechanisms. Models are constructed, evaluated and applied to national data from American schools.
+<br>
+<p1>Committee members</p1>
+<br>
+- L’Heureux Lewis-McCoy (Chair)
+<br>
+- Samuel Lucas
+<br>
+- Erez Hatna
+<br>
+- Ravi Shroff
+<br>
+<p1>Materials</p1>
+<br>
+---
 <br>
 </p4>
 
 <p4>
-<p1>Comprehensive oral exam</p1>
+<p0>PhD coursework</p0>
 <br>
-<a href="files/JSM_comps-list.pdf" target="_blank" class="a2">Reading list</a> 
+Chosen courses result from the required courses for program completion and elective courses chosen together with the PhD advisor.
+<br>
+<p1>Areas of concentration</p1>
+<br>
+- School organization
+<br>
+- Quantitative methods
+<br>
+<p1>Materials</p1>
+<br>
+<a href="files/JSM_PhD-coursework.pdf" target="_blank" class="a2">COURSE LIST</a> 
 <br>
 </p4>
 
 <p4>
-<p1>Independent study: Black-White within-school achievement gaps</p1>
+<p0>Comprehensive oral exam</p0>
+<br>
+The doctoral comprehensive examination in the Sociology of Education program is intended for students to achieve and demonstrate a comprehensive working knowledge of a large subfield of sociology. We trust that the knowledge facilitated by the exam will serve our students well as they write their dissertations and continue into subsequent stages of their careers. The exam consists of an oral examination in two areas: (1) a list of 18 books and articles that our program considers to be foundational to the field of Sociology of Education and (2) approximately 32 additional readings (for a total of approximately 50 readings on the comps list), both theoretical and empirical, in an area of the student’s specialization.
+<br>
+<p1>Materials</p1>
+<br>
+<a href="files/JSM_comps-list.pdf" target="_blank" class="a2">READING LIST</a> 
+</p4>
+
+<p4>
+<p0> Independent study: Black-White within-school achievement gaps</p0>
 <br>
 In this independent study, my goal was to review some of the key explanations for within-school achievement gaps in the sociology of education literature. I am particularly interested in texts discussing how school contexts and school characteristics contribute to or mitigate the production of academic inequality within schools. My literature review focuses on four key themes: (1) peer networks, (2) student course taking, (3) teacher expectations and (4) parental influence.
 <br>
-**Reading list**
+<p1>Materials</p1>
 <br>
-<a href="files/JSM_within-school-gaps-course.pdf" target="_blank" class="a2">Spring 2020</a>
+<a href="files/JSM_within-school-gaps-course.pdf" target="_blank" class="a2">READING LIST</a>
 </p4>

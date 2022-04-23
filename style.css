@@ -30,7 +30,7 @@ body{
 /*Hypelinks --------------------------------------------- */
 
 a, a:visited{
- border: 1px solid #17202A; 
+ border: 0px solid #17202A; 
  background-color: #17202A;
  color: #D5DBDB;
  font-weight: bold;
@@ -39,7 +39,7 @@ a, a:visited{
 }
 
 a:focus, a:hover{
- border: 1px solid #17202A;
+ border: 0px solid #17202A;
  background-color: #17202A;
  color: #D5DBDB;
  font-weight: bold;
@@ -51,77 +51,58 @@ a:focus, a:hover{
 
 button, button:active, button:visited {
   padding: 0.5px 3px !important;
-  border: 0px;
-  background-color: #F0B27A;
-  color: #A04000;
+  border: 1px solid #17202A;
+  background-color: #F6DDCC;
+  color: #17202A;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 button:focus, button:hover{
   padding: 0.5px 3px !important;
-  border: 0px;
-  background-color: #F0B27A;
-  color: #A04000;
+  border: 1px solid #17202A;
+  background-color: #F6DDCC;
+  color: #17202A;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 9px;
   opacity: .8;
 }
 
 .a2, .a2:active, .a2:visited {
   padding: 3px 4px !important;
-  border: 0px;
-  background-color: #F0B27A;
-  color: #A04000;
+  border: 1px solid #17202A;
+  background-color: #F6DDCC;
+  color: #17202A;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .a2:focus, .a2:hover{
   padding: 3px 4px !important;
-  border: 0px;
-  background-color: #F0B27A;
-  color: #A04000;
+  border: 1px solid #17202A;
+  background-color: #F6DDCC;
+  color: #17202A;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 9px;
   opacity: .8;
 }
 
 .a3, .a3:active, .a3:visited {
   padding: 3px 4px !important;
-  border: 0px;
-  background-color: #F0E2A4;
-  color: #2A2C31;
+  border: 1px solid #17202A;
+  background-color: #D4E6F1;
+  color: #17202A;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .a3:focus, .a3:hover{
   padding: 3px 4px !important;
-  border: 0px;
-  background-color: #F0E2A4;
-  color: #2A2C31;
+  border: 1px solid #17202A;
+  background-color: #D4E6F1;
+  color: #17202A;
   font-weight: bold;
-  font-size: 10px;
-  opacity: .8;
-}
-
-.a4, .a4:active, .a4:visited {
-  padding: 3px 4px !important;
-  border: 0px;
-  background-color: #F1948A;
-  color: #7B241C;
-  font-weight: bold;
-  font-size: 10px;
-}
-
-.a4:focus, .a4:hover{
-  padding: 3px 4px !important;
-  border: 0px;
-  background-color: #F1948A;
-  color: #7B241C;
-  font-weight: bold;
-  font-size: 10px;
+  font-size: 9px;
   opacity: .8;
 }
 
@@ -160,8 +141,13 @@ p{
   font-size: 12px;
 }
 
-p1{
+p0{
   font-size: 14px;
+  font-weight: bold
+}
+
+p1{
+  font-size: 13px;
   font-weight: bold
 }
 
@@ -177,9 +163,9 @@ p2{
 
 p4{
   padding: 10px;
-  width: 75%;
+  width: 100%;
+  /*margin: 0% 10% 0% 10%;*/
   border: 1px solid #3E3E3E;
-  margin: 2px;
   background-color: white;
   display: inline-block;
   text-align: left;
