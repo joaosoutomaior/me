@@ -37,17 +37,15 @@ function readMore(paper) {
 **Souto-Maior, J.** Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation (expected submission: Apr., 2022). 
 <br>
 <button onclick="readMore('1')" class="button">MORE</button>
-
 <span class="dots"></span><span class="more" style="display: none;">
-<p2>
-<p1>Overview</p1>
-<br>
+<pbox2>
 This is one of the papers which constitute my doctoral dissertation. The purpose of the project is to identify the mechanisms generating Black-White academic disparities in integrated school settings. The project constructs a series of qualitatively-informed agent-based models that highlight the mechanisms generating black-white advanced course-taking inequalities within schools. Models show how the racial composition of schools and different tracking systems influence the salience of the generative mechanisms. Models are constructed, evaluated and applied to national data from American schools.
+<br>
 <br>
 <p1>Materials</p1>
 <br>
 ---
-</p2>
+</pbox2>
 </span>
 </div>
 
@@ -55,17 +53,15 @@ This is one of the papers which constitute my doctoral dissertation. The purpose
 **Souto-Maior**, J. & Shroff, R. Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools (expected submission: Mar., 2022). 
 <br>
 <button onclick="readMore('2')" class="button">MORE</button> 
-
 <span class="dots"></span><span class="more" style="display: none;">
-<p2>
-<p1>Overview</p1>
-<br>
+<pbox2>
 We investigate and quantify the extent to which observed Black-White enrollment disparities in Advanced Placement mathematics courses are "unjustified" by the main principle governing student placement decisions---i.e., students' academic preparedness. Using detailed administrative data from New York paper high schools, we use a machine-learning-based approach to construct our own measure of academic preparedness and find that the under-representation of Black students relative to White students in AP mathematics is not fully explained by students' differences in academic preparedness
+<br>
 <br>
 <p1>Materials</p1>
 <br>
 ---
-</p2>
+</pbox2>
 </span>
 </div>
 
@@ -73,17 +69,15 @@ We investigate and quantify the extent to which observed Black-White enrollment 
 **Souto-Maior, J.** Determinants of race- and class-based educational inequality within Brazilian high schools (expected submission: Apr., 2022). 
 <br> 
 <button onclick="readMore('3')" class="button">MORE</button> 
-
 <span class="dots"></span><span class="more" style="display: none;">
-<p2>
-<p1>Overview</p1>
-<br>
+<pbox2>
 This paper aims at filling the gap of descriptive investigations of within-school educational inequalities in Brazil. Using publicly-available data from national high school exams, I rely on multilevel-models of student performance with school- and race-specific random effects to highlight the school-level factors correlated with within-school inequalities. An ultimate goal of the project is to allow its academic findings to be accessible to the general public---journalists, policymakers and those who wish to invest in better conditions for learning in Brazilian schools. A final product of this work is the publishing of an accessible and interactive dashboard application, which maps race- and class-based within-school inequalities across Brazilian schools, allowing users to gain both a broad and school-specific view of the study's results.
+<br>
 <br>
 <p1>Materials</p1>
 <br>
-<a href="https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/" target="_blank" class = "a3" >WORKING DASHBOARD</a>
-</p2>
+<a href="https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/" target="_blank" class = "a2" >WORKING DASHBOARD</a>
+</pbox2>
 </span>
 </div>
 
@@ -91,18 +85,16 @@ This paper aims at filling the gap of descriptive investigations of within-schoo
 Sherwood, H., **Souto-Maior, J.**, Poteat, P., Yoshikawa, H., Calzo, J. Stepping Out of the Closet and into Engagement: A Quantitative Analysis of Outness, GSA Engagement, and Classroom Engagement (expected submission: Sep., 2022). 
 <br>
 <button onclick="readMore('4')" class="button">MORE</button> 
-
 <span class="dots"></span><span class="more" style="display: none;">
-<p2>
-<p1>Overview</p1>
-<br>
+<pbox2>
 Using survey data from Massachusetts, New York paper, and San Diego schools, the project examines the role of gender and sexual outness on student classroom engagement. As a second author, my primary contribution to this project consists of providing a methodological assistance and of developing the code for the data analysis.
+<br>
 <br>
 <p1>Materials</p1>
 <br>
-<a href="https://github.com/joaosoutomaior/outness-engagement-GSAs-code" class = "a3" >CODE</a>
+<a href="https://github.com/joaosoutomaior/outness-engagement-GSAs-code" class = "a2" >CODE</a>
 <br>
-</p2>
+</pbox2>
 </span>
 </div>
 
