@@ -13,7 +13,7 @@ navbar:
       href: study.html
   right:
     - text: "CV"
-      href: "files/JSM_cv_02.2022.pdf"
+      href: "files/JSM_cv.pdf"
     - icon: fa-envelope fa-lg
       href: mailto:<jms1738@nyu.edu>
     - icon: fa-github fa-lg

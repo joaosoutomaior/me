@@ -1,5 +1,5 @@
 body{ 
-  background-color: white /*#FCFCFC*/
+  background-color: white
 }
 
 /*Navigation bar --------------------------------------------- */
@@ -71,7 +71,7 @@ button:focus, button:hover{
 .a2, .a2:active, .a2:visited {
   padding: 3px 4px !important;
   border: 1px solid #17202A;
-  background-color: #D4E6F1;
+  background-color: #F6DDCC;
   color: #17202A;
   font-weight: bold;
   font-size: 9px;
@@ -80,7 +80,7 @@ button:focus, button:hover{
 .a2:focus, .a2:hover{
   padding: 3px 4px !important;
   border: 1px solid #17202A;
-  background-color: #D4E6F1;
+  background-color: #F6DDCC;
   color: #17202A;
   font-weight: bold;
   font-size: 9px;
@@ -146,7 +146,7 @@ phead{
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid #17202A;
-  background-color: #FAE5D3 !important;
+  background-color: #ECF0F1 !important;
   padding: 5px 6px !important;
   display: inline-block;
   margin: 0px;
