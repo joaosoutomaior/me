@@ -24,7 +24,7 @@ be used for data analysis.
 <br>
 <p1>Course materials</p1>
 <br>
-<a href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank" class="a2">NOTES</a> 
+<a href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank" class="a3">NOTES</a> 
 </pmain>
 </pbox>
 
