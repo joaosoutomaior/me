@@ -57,7 +57,7 @@ This is one of the papers which constitute my doctoral dissertation. The purpose
 <div class="card" data-paper="2">
 <pbox>
 <phead2>
-<ins>Souto-Maior, J.</ins>, J. & Shroff, R. **Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools.**(expected submission: May, 2022).
+<ins>Souto-Maior, J.</ins> & Shroff, R. **Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools.**(expected submission: May, 2022).
 </phead2>
 <br>
 <span class="dots"></span><span class="more" style="display: none;">
