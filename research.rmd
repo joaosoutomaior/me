@@ -28,98 +28,97 @@ function readMore(paper) {
 }
 </script>
 
+Click on "MORE" to see relevant materials available.
 
-*Click on "MORE" to see the paper's description and relevant materials available.
-
-## Working papers {-}
+# Working papers {-}
 
 <div class="card" data-paper="1">
 <pbox>
-<phead2>
-<ins>Souto-Maior, J.</ins> **Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation.** (expected submission: June, 2022).
-</phead2>
+<phead>
+<p1>Souto-Maior, J.</p1> **Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation.** Expected submission: June, 2022.
+<button onclick="readMore('1')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
 <span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 This is one of the papers which constitute my doctoral dissertation. The purpose of the project is to identify the mechanisms generating Black-White academic disparities in integrated school settings. The project constructs a series of qualitatively-informed agent-based models that highlight the mechanisms generating black-white advanced course-taking inequalities within schools. Models show how the racial composition of schools and different tracking systems influence the salience of the generative mechanisms. Models are constructed, evaluated and applied to national data from American schools.
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 ---
 </pmain>
 </pbox>
 </span>
-<button onclick="readMore('1')" class="button">MORE</button>
 </div>
 
 
 <div class="card" data-paper="2">
 <pbox>
-<phead2>
-<ins>Souto-Maior, J.</ins> & Shroff, R. **Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools.**(expected submission: May, 2022).
-</phead2>
+<phead>
+<p1>Souto-Maior, J.</p1> & Shroff, R. **Testing for "unjustified" Black-White advanced enrollment inequalities: evidence from NYC high schools.** Expected submission: May, 2022.
+<button onclick="readMore('2')" class="button" style="float: right">MORE</button> 
+</phead>
 <br>
 <span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 We investigate and quantify the extent to which observed Black-White enrollment disparities in Advanced Placement mathematics courses are "unjustified" by the main principle governing student placement decisions---i.e., students' academic preparedness. Using detailed administrative data from New York paper high schools, we use a machine-learning-based approach to construct our own measure of academic preparedness and find that the under-representation of Black students relative to White students in AP mathematics is not fully explained by students' differences in academic preparedness
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 ---
 </pmain>
 </pbox>
 </span>
-<button onclick="readMore('2')" class="button">MORE</button> 
 </div>
 
 <div class="card" data-paper="3">
 <pbox>
-<phead2>
-<ins>Souto-Maior, J.</ins> **Determinants of race- and class-based educational inequality within Brazilian high schools.** (expected submission: June, 2022). 
-</phead2>
+<phead>
+<p1>Souto-Maior, J.</p1> **Determinants of race- and class-based educational inequality within Brazilian high schools.** Expected submission: July, 2022.
+<button onclick="readMore('3')" class="button" style="float: right">MORE</button> 
+</phead>
 <br> 
 <span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 This paper aims at filling the gap of descriptive investigations of within-school educational inequalities in Brazil. Using publicly-available data from national high school exams, I rely on multilevel-models of student performance with school- and race-specific random effects to highlight the school-level factors correlated with within-school inequalities. An ultimate goal of the project is to allow its academic findings to be accessible to the general public---journalists, policymakers and those who wish to invest in better conditions for learning in Brazilian schools. A final product of this work is the publishing of an accessible and interactive dashboard application, which maps race- and class-based within-school inequalities across Brazilian schools, allowing users to gain both a broad and school-specific view of the study's results.
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 <a href="https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/" target="_blank" class = "a2" >WORKING DASHBOARD</a>
 </pmain>
 </pbox>
 </span>
-<button onclick="readMore('3')" class="button">MORE</button> 
 </div>
 
 <div class="card" data-paper="4">
 <pbox>
-<phead2>
-Sherwood, H., <ins>Souto-Maior, J.</ins>, Poteat, P., Yoshikawa, H., Calzo, J. **Stepping out of the closet and into engagement: a quantitative analysis of outness, GSA engagement, and classroom engagement. **(expected submission: Sep., 2022). 
-</phead2>
+<phead>
+Sherwood, H., <p1>Souto-Maior, J.</p1>, Poteat, P., Yoshikawa, H., Calzo, J. **Stepping out of the closet and into engagement: a quantitative analysis of outness, GSA engagement, and classroom engagement. ** Expected submission: Sep., 2022. 
+<button onclick="readMore('4')" class="button" style="float: right">MORE</button> 
+</phead>
 <br>
 <span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 Using survey data from Massachusetts, New York paper, and San Diego schools, the project examines the role of gender and sexual outness on student classroom engagement. As a second author, my primary contribution to this project consists of providing a methodological assistance and of developing the code for the data analysis.
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 <a href="https://github.com/joaosoutomaior/outness-engagement-GSAs-code" class = "a2" >CODE</a>
 <br>
 </pmain>
 </pbox>
 </span>
-<button onclick="readMore('4')" class="button">MORE</button> 
 </div>
 
-## Conference presentations {-}
+# Conference presentations {-}
 
-**Souto-Maior, J.** Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation. Upcoming (August, 2022). *American Sociological Association: Session on Mathematical and Computational Approaches to Studying Inequality*.
+<p1>Souto-Maior, J.</p1> **Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation.** Upcoming (August, 2022). *American Sociological Association: Session on Mathematical and Computational Approaches to Studying Inequality*.
 
-## Other presentations {-}
+# Other presentations {-}
 
-**Souto-Maior, J.** Opportunity hoarding and Black-White inequalities in advanced enrollment: a simulation-based approach. February, 2021.*Race and Ethnipaper Workshop, NYU's Department of Sociology*.
+<p1>Souto-Maior, J.</p1> **Opportunity hoarding and Black-White inequalities in advanced enrollment: a simulation-based approach.** February, 2021. *Race and Ethnipaper Workshop, NYU's Department of Sociology*.
 

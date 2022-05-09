@@ -1,11 +1,37 @@
 
 <br>
 
-## Discussion sections
+<script>
+function readMore(course) {
+    let dots = document.querySelector(`.card[data-course="${course}"] .dots`);
+    let moreText = document.querySelector(`.card[data-course="${course}"] .more`); 
+    let btnText = document.querySelector(`.card[data-course="${course}"] .button`);
 
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "MORE";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "LESS"; 
+        moreText.style.display = "inline";
+    }
+}
+</script>
+
+
+Click on "MORE" to see the course description, syllabus and relevant materials available.
+
+# Discussion sections
+
+<div class="card" data-course="1">
 <pbox>
-<phead>Undergraduate Basic Statistics --- New York University</phead>
+<phead>
+**Undergraduate Basic Statistics --- New York University**
+<button onclick="readMore('1')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 This introductory course is designed to prepare undergraduate &
 master’s level students to use statistics for data analysis. This course covers descriptive and
@@ -17,20 +43,27 @@ and causation; confounding and interaction) will also be addressed. The IBM-SPSS
 be used for data analysis.
 <br>
 <br>
-<p1>Syllabus (taught from Spring 19 - Spring 21)</p1>
+**Syllabus (taught from Spring 19 - Spring 21)**
 <br>
-<a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank" class="a2">SPRING 21</a> 
+<a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank" class="a3">SPRING 21</a> 
 <br>
 <br>
-<p1>Course materials</p1>
+**Course materials**
 <br>
-<a href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank" class="a3">NOTES</a> 
+<a href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank" class="a2">NOTES</a> 
 </pmain>
 </pbox>
+</span>
+</div>
 
+<div class="card" data-course="2">
 <pbox>
-<phead>Qualitative Methods in International Education --- New York University</phead>
+<phead>
+**Qualitative Methods in International Education --- New York University**
+<button onclick="readMore('2')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 This course provides an introduction to qualitative methods that scholars and practitioners use in
 international and comparative education and the social sciences more broadly. It is intended to
@@ -38,17 +71,24 @@ provide an overview of research design, data collection, and data analysis and p
 commonly associated with qualitative research. 
 <br>
 <br>
-<p1>Syllabus</p1>
+**Syllabus**
 <br>
-<a href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank" class="a2">SPRING 22</a>
+<a href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank" class="a3">SPRING 22</a>
 </pmain>
 </pbox>
+</span>
+</div>
 
-## Undergraduate seminars
+# Undergraduate seminars
 
+<div class="card" data-course="3">
 <pbox>
-<phead>URS Seminar: Research, Creative Work and the Public Good --- University of Wisconsin-Madison</phead>
+<phead>
+**URS Seminar: Research, Creative Work and the Public Good --- University of Wisconsin-Madison**
+<button onclick="readMore('3')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 The course is designed to introduce students to the practice of research and creative work, and
 its implications for society. The course has two components: the work you do as an assistant on
@@ -60,16 +100,23 @@ different parts of the world we inhabit. Come prepared to share your thinking on
 introduced. Through discussions, activities and assignments you may learn as much from one
 another as you learn through your research project.
 <br>
-<p1>Syllabus</p1>
+**Syllabus**
 <br>
-<a href="files/syllabus_URS_Fall2016.pdf" target="_blank" class="a2">FALL 2016</a> 
-<a href="files/syllabus_URS_Spring2017.pdf" target="_blank" class="a2">SPRING 17</a>
+<a href="files/syllabus_URS_Fall2016.pdf" target="_blank" class="a3">FALL 2016</a> 
+<a href="files/syllabus_URS_Spring2017.pdf" target="_blank" class="a3">SPRING 17</a>
 </pmain>
 </pbox>
+</span>
+</div>
 
+<div class="card" data-course="4">
 <pbox>
-<phead>URS Seminar: Research and Creative Work at the Boundaries --- University of Wisconsin-Madison</phead>
+<phead>
+**URS Seminar: Research and Creative Work at the Boundaries --- University of Wisconsin-Madison**
+<button onclick="readMore('4')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 The course is designed to introduce students to the practice of research and creative work,
 and its implications for society. The course has two components: the work you do as an
@@ -80,9 +127,11 @@ and touching on a range of societal problems. The theme is to provoke reflection
 introduced. Through discussions, activities and assignments you may learn as much from one
 another as you learn through your research project.
 <br>
-<p1>Syllabus</p1>
+**Syllabus**
 <br>
-<a href="files/syllabus_URS_Fall2015.pdf" target="_blank" class="a2">FALL 15</a> 
-<a href="files/syllabus_URS_Spring2016.pdf" target="_blank" class="a2">SPRING 16</a>
+<a href="files/syllabus_URS_Fall2015.pdf" target="_blank" class="a3">FALL 15</a> 
+<a href="files/syllabus_URS_Spring2016.pdf" target="_blank" class="a3">SPRING 16</a>
 </pmain>
 </pbox>
+</span>
+</div>

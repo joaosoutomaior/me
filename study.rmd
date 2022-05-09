@@ -1,16 +1,39 @@
 
 <br>
 
-## Revelevant materials in my PhD study
+<script>
+function readMore(item) {
+    let dots = document.querySelector(`.card[data-item="${item}"] .dots`);
+    let moreText = document.querySelector(`.card[data-item="${item}"] .more`); 
+    let btnText = document.querySelector(`.card[data-item="${item}"] .button`);
 
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "MORE";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "LESS"; 
+        moreText.style.display = "inline";
+    }
+}
+</script>
+
+Click on "MORE" to see relevant materials available.
+
+<div class="card" data-item="1">
 <pbox>
-<phead>PhD dissertation: School racial integration and students’ academic experiences: a simulation-based study of Black-White course-taking inequalities</phead>
+<phead>
+**PhD dissertation: School racial integration and students’ academic experiences: a simulation-based study of Black-White course-taking inequalities**
+<button onclick="readMore('1')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 The purpose of the project is to identify the mechanisms generating Black-White academic disparities in integrated school settings. The project constructs a series of qualitatively-informed agent-based models that highlight the mechanisms generating black-white advanced course-taking inequalities within schools. Models show how the racial composition of schools and different tracking systems influence the salience of the generative mechanisms. Models are constructed, evaluated and applied to national data from American schools.
 <br>
 <br>
-<p1>Committee members</p1>
+**Committee members**
 <br>
 - L’Heureux Lewis-McCoy (Chair)
 <br>
@@ -21,56 +44,79 @@ The purpose of the project is to identify the mechanisms generating Black-White 
 - Ravi Shroff
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 ---
 <br>
 </pmain>
 </pbox>
+</span>
+</div>
 
+<div class="card" data-item="2">
 <pbox>
-<phead>PhD coursework</phead>
+<phead>
+**PhD coursework**
+<button onclick="readMore('2')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 Chosen courses result from the required courses for program completion and elective courses chosen together with the PhD advisor.
 <br>
 <br>
-<p1>Areas of concentration</p1>
+**Areas of concentration**
 <br>
 - School organization
 <br>
 - Quantitative methods
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 <a href="files/JSM_PhD-coursework.pdf" target="_blank" class="a2">COURSE LIST</a> 
 <br>
 </pmain>
 </pbox>
+</span>
+</div>
 
+<div class="card" data-item="3">
 <pbox>
-<phead>Comprehensive oral exam</phead>
+<phead>
+**Comprehensive oral exam**
+<button onclick="readMore('3')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 The doctoral comprehensive examination in the Sociology of Education program is intended for students to achieve and demonstrate a comprehensive working knowledge of a large subfield of sociology. We trust that the knowledge facilitated by the exam will serve our students well as they write their dissertations and continue into subsequent stages of their careers. The exam consists of an oral examination in two areas: (1) a list of 18 books and articles that our program considers to be foundational to the field of Sociology of Education and (2) approximately 32 additional readings (for a total of approximately 50 readings on the comps list), both theoretical and empirical, in an area of the student’s specialization.
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 <a href="files/JSM_comps-list.pdf" target="_blank" class="a2">READING LIST</a> 
 </pmain>
 </pbox>
+</span>
+</div>
 
+<div class="card" data-item="4">
 <pbox>
-<phead> Independent study: Black-White within-school achievement gaps</phead>
+<phead>
+**Independent study: Black-White within-school achievement gaps**
+<button onclick="readMore('4')" class="button" style="float: right">MORE</button>
+</phead>
 <br>
+<span class="dots"></span><span class="more" style="display: none;">
 <pmain>
 In this independent study, my goal was to review some of the key explanations for within-school achievement gaps in the sociology of education literature. I am particularly interested in texts discussing how school contexts and school characteristics contribute to or mitigate the production of academic inequality within schools. My literature review focuses on four key themes: (1) peer networks, (2) student course taking, (3) teacher expectations and (4) parental influence.
 <br>
 <br>
-<p1>Materials</p1>
+**Materials**
 <br>
 <a href="files/JSM_within-school-gaps-course.pdf" target="_blank" class="a2">READING LIST</a>
 </pmain>
 </pbox>
+</span>
+</div>
