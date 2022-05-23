@@ -1,15 +1,14 @@
 
+<br>
+
 <div class="column-left">
 <center>
-<br>
-<br>
-<br>
-<img src="files/profile-pic-2.jpg" style = "transform:rotate(90deg)">
+<img src="files/profile-pic-2.jpg" style="width:87%">
 </center>
 </div>
 
 <div class="column-right">
-<br>
+
 I am a fourth-year PhD student ---at the candidacy level--- in the <a href="https://steinhardt.nyu.edu/programs/sociology-education" target="_blank" class="a4" >SOCIOLOGY OF EDUCATION PROGRAM</a> in the Department of Applied Statistics, Social Science and Humanities at New York University's Steinhardt School of Culture, Education and Human Development. My research investigates the formation of educational inequalities within educational institutions, particularly along dimensions of race and class. Two primary goals inform such investigations. First, to rigorously quantify the extent to which organizational practices produce race- and class-based educational inequalities. Second, to understand the underlying mechanisms through which educational practices produce these inequalities. To address these goals, I rely on a variety of quantitative methods, with a primary focus on agent-based simulation approaches, hoping to advance the use of computational methods within the sociology of education. 
 <br>
 <br>
