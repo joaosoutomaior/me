@@ -1,5 +1,6 @@
 name: "João M. Souto Maior"
 output_dir: "docs"
+
 navbar:
   title: "João M. Souto Maior"
   left:
@@ -18,6 +19,7 @@ navbar:
       href: mailto:<jms1738@nyu.edu>
     - icon: fa-github fa-lg
       href: https://github.com/joaosoutomaior/
+
 output:
   html_document:
     theme: paper
