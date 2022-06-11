@@ -1,19 +1,647 @@
+---
+title: "Joao M. Souto Maior"
+output: 
+  flexdashboard::flex_dashboard:
+      vertical_layout: scroll
+      theme: 
+        version: 4
+        bootswatch: journal
+        primary: "#2ECC71"
+        navbar-bg: "#3C3C3C"
+        base_font: 
+          google: Roboto
+        heading_font:
+          google: Roboto
+---
 
-<br>
+<script>
+function readMore1(paper) {
+    let dots = document.querySelector(`.card[data-paper="${paper}"] .dots`);
+    let moreText = document.querySelector(`.card[data-paper="${paper}"] .more`); 
+    let btnText = document.querySelector(`.card[data-paper="${paper}"] .button`);
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "DETAILS";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "LESS"; 
+        moreText.style.display = "inline";
+    }
+}
+
+function readMore2(course) {
+    let dots = document.querySelector(`.card[data-course="${course}"] .dots`);
+    let moreText = document.querySelector(`.card[data-course="${course}"] .more`); 
+    let btnText = document.querySelector(`.card[data-course="${course}"] .button`);
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "DETAILS";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "LESS"; 
+        moreText.style.display = "inline";
+    }
+}
+
+function readMore3(item) {
+    let dots = document.querySelector(`.card[data-item="${item}"] .dots`);
+    let moreText = document.querySelector(`.card[data-item="${item}"] .more`); 
+    let btnText = document.querySelector(`.card[data-item="${item}"] .button`);
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "DETAILS";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "LESS"; 
+        moreText.style.display = "inline";
+    }
+}
+</script>
+
+
+Column {data-width=400}
+-------------------------------------
+
+### 
 
 <div class="column-left">
+
 <center>
-<img src="files/profile-pic-2.jpg" style="width:87%">
+<img src="files/JSM_profile-pic.jpg"
+    style="object-fit:fill;
+            width:90%;
+            height:auto;
+            border: solid 0px #CCC"/>
 </center>
 </div>
 
 <div class="column-right">
-
-I am a fourth-year PhD student ---at the candidacy level--- in the <a href="https://steinhardt.nyu.edu/programs/sociology-education" target="_blank" class="a4" >SOCIOLOGY OF EDUCATION PROGRAM</a> in the Department of Applied Statistics, Social Science and Humanities at New York University's Steinhardt School of Culture, Education and Human Development. My research investigates the formation of educational inequalities within educational institutions, particularly along dimensions of race and class. Two primary goals inform such investigations. First, to rigorously quantify the extent to which organizational practices produce race- and class-based educational inequalities. Second, to understand the underlying mechanisms through which educational practices produce these inequalities. To address these goals, I rely on a variety of quantitative methods, with a primary focus on agent-based simulation approaches, hoping to advance the use of computational methods within the sociology of education. 
+<p2> 
+<br>
+**PhD Candidate, Sociology of Education**
+<br>
+Department of Applied Statistics, Social Science and Humanities at the New York University
 <br>
 <br>
-I am originally from São Paulo, Brazil. I received my BA in economics from the University of Wisconsin-Madison in 2017. After my undergraduate studies, I started as an economics doctoral student at the CUNY Graduate Center, where I studied for a year before transferring to NYU.
+**Research interests** 
+<br>
+Computational methods; agent-based-modeling; school organization; within-school racial and socioeconomic inequalities.
+</p2> 
 <br>
 <br>
-*A note on names:* for publication purposes, I use a hyphenated version of my last name: João M. Souto-Maior
+<left>
+<a href="files/JSM_cv.pdf" target="_blank" class = "a3" >CV</a>
+  <a href="https://github.com/joaosoutomaior/" target="_blank" class = "a2" >GITHUB</a>
+  <a href="https://steinhardt.nyu.edu/joao-pedro-m-souto-maior" target="_blank" class = "a2" >NYU PAGE</a>
+</left>
 </div>
+
+### About
+
+I am a fifth-year PhD student in the [Sociology of Education program](https://steinhardt.nyu.edu/programs/sociology-education) in the Department of Applied Statistics, Social Science and Humanities at New York University's Steinhardt School of Culture, Education and Human Development. Broadly, I study the processes which shape unequal access to educational resources, particularly along dimensions of race and class. My current research investigates the formation of educational inequalities within educational institutions, with an emphasis on the role of organizational practices in producing these within-institution inequalities. I rely on a variety of quantitative methods, with an emphasis on agent-based modeling techniques, hoping to advance the use of computational methods---and the insights derived from it--- within the fields of sociology of education and education policy. 
+
+
+I am originally from São Paulo, Brazil. I received my BA in economics from the University of Wisconsin-Madison in 2017. After my undergraduate studies, I started as an economics doctoral student at the CUNY Graduate Center, where I studied for a year before transferring to NYU.
+
+*A note on names:* for publication purposes, I use a hyphenated version of my last name: João M. Souto-Maior
+
+Column {data-width=600} {.tabset}
+-------------------------------------
+
+### Research
+
+<subheading>Working papers</subheading>
+
+<div class="card" data-paper="1">
+<pbox>
+<phead>
+<up>Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation</up>
+<br>
+<p1>Souto-Maior, J.</p1> *Expected submission: July, 2022*
+<br>
+<left style="float: left">
+<button onclick="readMore1('1')" class="button" style="float: left">DETAILS</button>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none">
+<pmain>
+This is one of the papers which constitute my doctoral dissertation. The purpose of the project is to identify the mechanisms generating Black-White academic disparities in integrated school settings. The project constructs a series of qualitatively-informed agent-based models that highlight the mechanisms generating black-white advanced course-taking inequalities within schools. Models show how the racial composition of schools and different tracking systems influence the salience of the generative mechanisms. Models are constructed, evaluated and applied to national data from American schools.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-paper="2">
+<pbox>
+<phead>
+<up>Do AP enrollment processes favor certain racial groups? Measuring unjustified disparities in advanced course-taking in New York City high schools</up>
+<br>
+<p1>Souto-Maior, J.</p1> & Shroff, R. *Expected submission: June, 2022*
+<br>
+<left style="float: left">
+<button onclick="readMore1('2')" class="button" style="float: left">DETAILS</button>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none">
+<pmain>
+We investigate and quantify the extent to which observed Black-White enrollment disparities in Advanced Placement mathematics courses are "unjustified" by the main principle governing student placement decisions---i.e., students' academic preparedness. Using detailed administrative data from New York paper high schools, we use a machine-learning-based approach to construct our own measure of academic preparedness and find that the under-representation of Black students relative to White students in AP mathematics is not fully explained by students' differences in academic preparedness
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-paper="3">
+<pbox>
+<phead>
+<up>Determinants of race- and class-based educational inequalities within Brazilian high schools</up>
+<br>
+<p1>Souto-Maior, J.</p1> *Expected submission: July, 2022*
+<br>
+<left style="float: left">
+<button onclick="readMore1('3')" class="button" style="float: left">DETAILS</button>
+<a href="https://joaomsoutomaior.shinyapps.io/SaoPaulo_HighSchools_ENEM2019/" target="_blank" class = "a2">DASHBOARD</a>
+</left>
+</phead>
+<br> 
+<span class="dots"></span><span class="more" style="display: none">
+<pmain>
+This paper aims at filling the gap of descriptive investigations of within-school educational inequalities in Brazil. Using publicly-available data from national high school exams, I rely on multilevel-models of student performance with school- and race-specific random effects to highlight the school-level factors correlated with within-school inequalities. An ultimate goal of the project is to allow its academic findings to be accessible to the general public---journalists, policymakers and those who wish to invest in better conditions for learning in Brazilian schools. A final product of this work is the publishing of an accessible and interactive dashboard application, which maps race- and class-based within-school inequalities across Brazilian schools, allowing users to gain both a broad and school-specific view of the study's results.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-paper="4">
+<pbox>
+<phead>
+<up>Stepping out of the closet and into engagement: a quantitative analysis of outness, GSA engagement, and classroom engagement</up>
+<br>
+Sherwood, H., <p1>Souto-Maior, J.</p1>, Poteat, P., Yoshikawa, H., Calzo, J. *Expected submission: Sep., 2022* 
+<br>
+<left style="float: left">
+<button onclick="readMore1('4')" class="button" style="float: left">DETAILS</button> <a href="https://github.com/joaosoutomaior/outness-engagement-GSAs-code" class = "a2" >CODE</a>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none">
+<pmain>
+Using survey data from Massachusetts, New York paper, and San Diego schools, the project examines the role of gender and sexual outness on student classroom engagement. As a second author, my primary contribution to this project consists of providing a methodological assistance and of developing the code for the data analysis.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<subheading>Conference presentations</subheading>
+
+<pbox>
+<phead>
+<up>Black-White advanced enrollment inequalities and the racial composition of schools: an agent-based modeling investigation</up>
+<br>
+<p1>Souto-Maior, J.</p1> *American Sociological Association: Session on Mathematical and Computational Approaches to Studying Inequality, Upcoming (August, 2022)*
+</phead>
+</pbox>
+
+<subheading>Other presentations</subheading>
+
+<pbox>
+<phead>
+<up>Opportunity hoarding and Black-White inequalities in advanced enrollment: a simulation-based approach</up>
+<br>
+<p1>Souto-Maior, J.</p1> *Race and Ethnipaper Workshop, NYU's Department of Sociology, February, 2021*
+</phead>
+</pbox>
+
+
+### Teaching 
+
+<subheading>Discussion sections</subheading>
+
+<div class="card" data-course="1">
+<pbox>
+<phead>
+<up>Undergraduate Basic Statistics</up>
+<br>
+New York University --- from Spring 2019 to Spring 2021
+<br>
+<left style="float: left">
+<button onclick="readMore2('1')" class="button" style="float: left" style="float: right">DETAILS</button> <a href="https://bookdown.org/joao_msoutomaior/intro-stats-notes" target="_blank" class="a2">NOTES</a> <a href="files/syllabus_Basic-Stats_Spring2021.pdf" target="_blank" class="a3">SPRING 21</a> 
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+This introductory course is designed to prepare undergraduate &
+master’s level students to use statistics for data analysis. This course covers descriptive and
+inferential statistics; including frequency distributions, graphs, measures of central tendency,
+measures of variability, sampling, probability, z-score, the normal distribution, and tests of
+hypothesis such as t-tests, ANOVA, linear correlation and regression, and chi-squared analysis.
+Effect size, study designs (observational and experimental) and research concepts (association
+and causation; confounding and interaction) will also be addressed. The IBM-SPSS software will
+be used for data analysis.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-course="2">
+<pbox>
+<phead>
+<up>Qualitative Methods in International Education</up>
+<br>
+New York University --- Spring 2022
+<br>
+<left style="float: left">
+<button onclick="readMore2('2')" class="button" style="float: left" style="float: right">DETAILS</button>
+<a href="files/syllabus_Qual-Methods_Spring2022.pdf" target="_blank" class="a3">SPRING 22</a>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+This course provides an introduction to qualitative methods that scholars and practitioners use in
+international and comparative education and the social sciences more broadly. It is intended to
+provide an overview of research design, data collection, and data analysis and presentation most
+commonly associated with qualitative research. 
+</pmain>
+</pbox>
+</span>
+</div>
+
+<subheading>Undergraduate seminars</subheading>
+
+<div class="card" data-course="3">
+<pbox>
+<phead>
+<up>URS Seminar: Research, Creative Work and the Public Good</up>
+<br>
+University of Wisconsin-Madison --- 2016-17
+<br>
+<left style="float: left">
+<button onclick="readMore2('3')" class="button" style="float: left" style="float: right">DETAILS</button>
+<a href="files/syllabus_URS_Fall2016.pdf" target="_blank" class="a3">FALL 2016</a> 
+<a href="files/syllabus_URS_Spring2017.pdf" target="_blank" class="a3">SPRING 17</a>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+The course is designed to introduce students to the practice of research and creative work, and
+its implications for society. The course has two components: the work you do as an assistant on
+faculty projects, and your participation in the small group seminar. In the school year 2016-17, the
+seminar is dedicated to the theme: research, creative work and the public good. We will spend
+the year critically exploring this theme across different disciplines, and touching on a range of
+societal problems. The theme is to provoke reflection in our research or creative work experiences, and in the
+different parts of the world we inhabit. Come prepared to share your thinking on the topics
+introduced. Through discussions, activities and assignments you may learn as much from one
+another as you learn through your research project.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-course="4">
+<pbox>
+<phead>
+<up>URS Seminar: Research and Creative Work at the Boundaries</up>
+<br>
+University of Wisconsin-Madison --- 2015-16
+<br>
+<left style="float: left">
+<button onclick="readMore2('4')" class="button" style="float: left" style="float: right">DETAILS</button>
+<a href="files/syllabus_URS_Fall2015.pdf" target="_blank" class="a3">FALL 15</a> 
+<a href="files/syllabus_URS_Spring2016.pdf" target="_blank" class="a3">SPRING 16</a>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+The course is designed to introduce students to the practice of research and creative work,
+and its implications for society. The course has two components: the work you do as an
+assistant on faculty projects, and your participation in the small group seminar. In the school
+year 2015-16, the seminar is dedicated to the theme: research and creative work at the
+ boundaries. We will spend the year critically exploring this theme across different disciplines,
+and touching on a range of societal problems. The theme is to provoke reflection in our research or creative work experiences, and in the different parts of the world we inhabit. Come prepared to share your thinking on the topics
+introduced. Through discussions, activities and assignments you may learn as much from one
+another as you learn through your research project.
+</pmain>
+</pbox>
+</span>
+</div>
+
+### PhD study
+
+<div class="card" data-item="1">
+<pbox>
+<phead>
+<up>PhD dissertation</up>
+<br>
+School racial integration and students’ academic experiences: a simulation-based study of Black-White course-taking inequalities
+<br>
+<left style="float: left">
+<button onclick="readMore3('1')" class="button" style="float: left" style="float: right">DETAILS</button>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+The purpose of the project is to identify the mechanisms generating Black-White academic disparities in integrated school settings. The project constructs a series of qualitatively-informed agent-based models that highlight the mechanisms generating black-white advanced course-taking inequalities within schools. Models show how the racial composition of schools and different tracking systems influence the salience of the generative mechanisms. Models are constructed, evaluated and applied to national data from American schools.
+<br>
+<br>
+**Committee members**
+<br>
+- L’Heureux Lewis-McCoy (Chair)
+<br>
+- Samuel Lucas
+<br>
+- Erez Hatna
+<br>
+- Ravi Shroff
+<br>
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-item="2">
+<pbox>
+<phead>
+<up>PhD coursework</up>
+<br>
+Areas of concentration: School organization; Quantitative methods
+<br>
+<left style="float: left">
+<button onclick="readMore3('2')" class="button" style="float: left" style="float: right">DETAILS</button>
+<a href="files/JSM_PhD-coursework.pdf" target="_blank" class="a3">COURSE LIST</a> 
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+Chosen courses result from the required courses for program completion and elective courses chosen together with the PhD advisor.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-item="3">
+<pbox>
+<phead>
+<up>Comprehensive oral exam</up>
+<br>
+<left style="float: left">
+<button onclick="readMore3('3')" class="button" style="float: left" style="float: right">DETAILS</button>
+<a href="files/JSM_comps-list.pdf" target="_blank" class="a3">READING LIST</a> 
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+The doctoral comprehensive examination in the Sociology of Education program is intended for students to achieve and demonstrate a comprehensive working knowledge of a large subfield of sociology. We trust that the knowledge facilitated by the exam will serve our students well as they write their dissertations and continue into subsequent stages of their careers. The exam consists of an oral examination in two areas: (1) a list of 18 books and articles that our program considers to be foundational to the field of Sociology of Education and (2) approximately 32 additional readings (for a total of approximately 50 readings on the comps list), both theoretical and empirical, in an area of the student’s specialization.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<div class="card" data-item="4">
+<pbox>
+<phead>
+<up>Independent study: Black-White within-school achievement gaps</up>
+<br>
+<left style="float: left">
+<button onclick="readMore3('4')" class="button" style="float: left" style="float: right">DETAILS</button>
+<a href="files/JSM_within-school-gaps-course.pdf" target="_blank" class="a3">READING LIST</a>
+</left>
+</phead>
+<br>
+<span class="dots"></span><span class="more" style="display: none;">
+<pmain>
+In this independent study, my goal was to review some of the key explanations for within-school achievement gaps in the sociology of education literature. I am particularly interested in texts discussing how school contexts and school characteristics contribute to or mitigate the production of academic inequality within schools. My literature review focuses on four key themes: (1) peer networks, (2) student course taking, (3) teacher expectations and (4) parental influence.
+</pmain>
+</pbox>
+</span>
+</div>
+
+<style>
+button, button:active, button:visited {
+    padding: 2px 4px !important;
+    margin: 1px 4px !important;
+    border: 1px solid #3c8dbc;
+    border-radius: 0px;
+    background-color: white;
+    color: #3c8dbc;
+    font-weight: bold;
+    font-size: 9px
+  }
+
+button:focus, button:hover{
+  padding: 2px 4px !important;
+  margin: 1px 4px !important;
+  border: 1px solid #3c8dbc;
+  border-radius: 0px;
+  background-color: white;
+  color: #3c8dbc;
+  font-weight: bold;
+  font-size: 9px;
+  opacity: .8
+}
+
+.a2, .a2:active, .a2:visited {
+  padding: 3px 4px !important;
+  border: 1px solid #2ECC71;
+  margin: 1px 2px !important;
+  border-radius: 0px;
+  background-color: white;
+  color: #2ECC71;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+.a2:focus, .a2:hover{
+  padding: 3px 4px !important;
+  border: 1px solid #2ECC71;
+  margin: 1px 2px !important;
+  border-radius: 0px;
+  background-color: white;
+  color: #2ECC71;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9px;
+  opacity: .8;
+}
+
+.a3, .a3:active, .a3:visited {
+  padding: 3px 4px !important;
+  border: 1px solid #E74C3C;
+  margin: 1px 2px !important;
+  border-radius: 0px;
+  background-color: white;
+  color: #E74C3C;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+.a3:focus, .a3:hover{
+  padding: 3px 4px !important;
+  border: 1px solid #E74C3C;
+  margin: 1px 2px !important;
+  border-radius: 0px;
+  background-color: white;
+  color: #E74C3C;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9px;
+  opacity: .8;
+}
+
+.a4, .a4:active, .a4:visited {
+  padding: 3px 4px !important;
+  border: 1px solid #3c8dbc;
+  margin: 1px 2px !important;
+  border-radius: 0px;
+  background-color: white;
+  color: #3c8dbc;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9px;
+}
+
+.a4:focus, .a4:hover{
+  padding: 3px 4px !important;
+  margin: 1px 2px !important;
+  border: 1px solid #3c8dbc;
+  border-radius: 0px;
+  background-color: white;
+  color: #3c8dbc;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 9px;
+  opacity: .8;
+}
+
+/*Columns --------------------------------------------- */
+  
+.column-left{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+phead{
+  width: 100%; 
+  font-size: 13px;
+  background-color: white !important;
+  padding: 5px 6px !important;
+  display: inline-block;
+  margin: 0px;
+  color: rgb(100,100,100);
+}
+
+pbox{
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  display: block;
+  text-align: left;
+  color: rgb(100,100,100);
+}
+
+pmain{
+  font-size: 12px;
+  padding: 10px;
+  background-color: white;
+  display: inline-block;
+  text-align: left;
+  color: rgb(100,100,100);
+}
+
+subheading{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(100,100,100);
+}
+
+p{
+  font-size: 13px;
+  color: rgb(100,100,100)
+}
+
+p1{
+  font-size: 13px;
+  color: #3c8dbc
+}
+
+p2{
+  font-size: 13px;
+  color: rgb(100,100,100)
+}
+
+p3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+up {
+ font-size: 13px;
+ font-weight: bold;
+ color: rgb(100,100,100);
+ /*text-transform: uppercase*/
+}
+
+.card{
+  font-size: 13px;
+  border: 0px solid #3c8dbc;
+  padding: px;
+  margin: 0px;
+  background-color: white;
+  display: block;
+  text-align: left
+}
+
+
+/*Variables --------------------------------------------- */
+  
+#more {display: none;}
+
+body {
+  padding-top:80px
+}
+
+.side{
+  background-color:rgb(180,180,180);
+  top: 0px;
+}
+
+/*.navbar{
+  display: none;
+  opacity: 0
+} */
+
+
+.nav-tabs-custom > .nav-tabs > li.active a {
+    border-top-color: #2ECC71;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active{
+    border-top-color: #2ECC71;
+}
+
+</style>
+
